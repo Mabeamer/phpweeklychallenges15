@@ -1,7 +1,7 @@
 <?php
 
 try{
-	$conn = new mysqli("localhost", "root", "root", "r2hchallenge");
+	$conn = new mysqli("localhost", "r2hstudent", "SbFaGzNgGIE8kfP", "mbeamer_Challenges");
 	print "connected </br>";
 	$sql = "SELECT StateName FROM StateTable";
 	$result = $conn->query($sql);

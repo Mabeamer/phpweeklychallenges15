@@ -1,7 +1,7 @@
 <?php
 try{
 	if($_GET['color'] != ""){
-		$conn = new mysqli("localhost", "root", "root", "r2hchallenge");
+		$conn = new mysqli("localhost", "r2hstudent", "SbFaGzNgGIE8kfP", "mbeamer_Challenges");
 		$userInsert = "INSERT INTO `ProductTable` (`ProductId`, `ProductPrice`, `ProductName`, `ProductColor`, `ProductDesc`) VALUES (NULL, '".$_GET['price']."'
 		, '".$_GET['MName']."'
 		, '".$_GET['color']."'
